@@ -8,13 +8,16 @@ namespace ch8_ex1
 {
     public class Card
     {
-        public int Suit { get; set; }
-        public int Value { get; set; }
-        public string Name { get; }
+        public Suits Suit { get; set; }
+        public Values Value { get; set; }
+        public string Name {
+            get { return Value.ToString() + " of " + Suit.ToString(); }
+        }
 
         public Card(Suits suit, Values value)
         {
-            Name = value.ToString() + " of " + suit.ToString();
+            this.Suit = suit;
+            this.Value = value;
         }
 
         public enum Suits

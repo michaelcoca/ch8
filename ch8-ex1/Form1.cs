@@ -23,7 +23,6 @@ namespace ch8_ex1
             Random random = new Random();
             int numberBetween0and3 = random.Next(4);
             int numberBetween1and13 = random.Next(1, 14);
-            int anyRandomInteger = random.Next();
 
             Card.Suits suit = (Card.Suits)numberBetween0and3;
             Card.Values value = (Card.Values)numberBetween1and13;
