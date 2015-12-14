@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8-ex1", "ch8-ex1\ch8-ex1.csproj", "{CBB66CE9-A61C-4036-A6C5-138B5C8EE8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8-ex2", "ch8-ex2\ch8-ex2.csproj", "{BE424A85-1EFD-4FA0-9E8F-68ADAB6F96D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CBB66CE9-A61C-4036-A6C5-138B5C8EE8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB66CE9-A61C-4036-A6C5-138B5C8EE8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB66CE9-A61C-4036-A6C5-138B5C8EE8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE424A85-1EFD-4FA0-9E8F-68ADAB6F96D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE424A85-1EFD-4FA0-9E8F-68ADAB6F96D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE424A85-1EFD-4FA0-9E8F-68ADAB6F96D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE424A85-1EFD-4FA0-9E8F-68ADAB6F96D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
