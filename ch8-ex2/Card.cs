@@ -44,6 +44,11 @@ namespace ch8_ex2
             Queen = 12,
             King = 13,
         }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 
     
