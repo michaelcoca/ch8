@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8-ex1", "ch8-ex1\ch8-ex1.csproj", "{CBB66CE9-A61C-4036-A6C5-138B5C8EE8F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8-ex2", "ch8-ex2\ch8-ex2.csproj", "{BE424A85-1EFD-4FA0-9E8F-68ADAB6F96D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8-shoe", "ch8-shoe\ch8-shoe.csproj", "{7BDAF6B5-FE59-493B-BE4E-CB1CFCBE9DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8-duck", "ch8-duck\ch8-duck.csproj", "{90C419EC-2A25-4DC8-A2E1-515EB2C76027}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7BDAF6B5-FE59-493B-BE4E-CB1CFCBE9DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BDAF6B5-FE59-493B-BE4E-CB1CFCBE9DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BDAF6B5-FE59-493B-BE4E-CB1CFCBE9DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C419EC-2A25-4DC8-A2E1-515EB2C76027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C419EC-2A25-4DC8-A2E1-515EB2C76027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C419EC-2A25-4DC8-A2E1-515EB2C76027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C419EC-2A25-4DC8-A2E1-515EB2C76027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
