@@ -20,6 +20,11 @@ namespace ch8_duck
             else
                 return 0;
         }
+
+        public override string ToString()
+        {
+            return "A " + Size + " inch " + Kind.ToString();
+        }
     }
 
     enum KindOfDuck
