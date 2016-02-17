@@ -47,7 +47,7 @@ namespace ch8_duck
         {
             foreach (Duck duck in ducks)
             {
-                Console.WriteLine(duck.Size.ToString() + "-inch " + duck.Kind.ToString());
+                Console.WriteLine(duck);
             }
             Console.WriteLine("End of ducks!");
         }

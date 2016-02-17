@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch8_duck
+namespace ch8_ex3_Bird
 {
-    class Duck : IComparable<Duck>
+    class Duck : Bird, IComparable<Duck>
     {
         public int Size;
         public KindOfDuck Kind;
